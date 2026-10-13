@@ -1,0 +1,20 @@
+ http://IP-PUPLICO-DA-EC2:3000/
+
+beatrizbaroni@ip-172-31-20-242:~/zipline$ history
+    1  2026-10-13 19:09:57 # Comecando a configurar zipline
+    2  2026-10-13 19:10:11 git  clone  https://github.com/diced/zipline.git
+    3  2026-10-13 19:10:21 cd zipline/
+    4  2026-10-13 19:10:32 echo "POSTGRESQL_PASSWORD=$(openssl rand -base64 42 | tr -dc A-Za-z0-9 | cut -c -32 | tr -d '\n')" > .env
+    5  2026-10-13 19:10:57 echo "CORE_SECRET=$(openssl rand -base64 42 | tr -dc A-Za-z0-9 | cut -c -32 | tr -d '\n')" >> .env
+    6  2026-10-13 19:11:05 docker compose up -d
+    7  2026-10-13 19:12:01 docker ps
+    8  2026-10-13 19:13:26 history
+beatrizbaroni@ip-172-31-20-242:~/zipline$ history
+    1  2026-10-13 19:09:57 # Comecando a configurar zipline
+    2  2026-10-13 19:10:11 git  clone  https://github.com/diced/zipline.git
+    3  2026-10-13 19:10:21 cd zipline/
+    4  2026-10-13 19:10:32 echo "POSTGRESQL_PASSWORD=$(openssl rand -base64 42 | tr -dc A-Za-z0-9 | cut -c -32 | tr -d '\n')" > .env
+    5  2026-10-13 19:10:57 echo "CORE_SECRET=$(openssl rand -base64 42 | tr -dc A-Za-z0-9 | cut -c -32 | tr -d '\n')" >> .env
+    6  2026-10-13 19:11:05 docker compose up -d
+    7  2026-10-13 19:12:01 docker ps
+    8  2026-10-13 19:13:26 history
